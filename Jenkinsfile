@@ -15,7 +15,7 @@ pipeline {
             steps {
                 echo 'Testing..'  
                 browserstack(credentialsId: 'e4bfb5f8-607a-41aa-87d0-8fa493e9ca8c') {
-                    sh 'npx wdio wdio.conf.js"'
+                    sh 'npx wdio wdio.conf.js'
                 }              
             }
         }
