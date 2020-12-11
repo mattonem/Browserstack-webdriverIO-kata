@@ -8,9 +8,11 @@
   },
   "dependencies": {
     "chromedriver": "^87.0.2",
-    "wdio-chromedriver-service": "^6.0.4"
+    "wdio-chromedriver-service": "^6.0.4",
+    "@wdio/browserstack-service": "^6.10.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "scripts": {
     "test": "npx wdio"
   },
