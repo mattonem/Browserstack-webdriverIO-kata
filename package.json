@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-ce-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chromedriver": "^87.0.2",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattonem/Browserstack-webdriverIO-kata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattonem/Browserstack-webdriverIO-kata/issues"
+  },
+  "homepage": "https://github.com/mattonem/Browserstack-webdriverIO-kata#readme"
+}

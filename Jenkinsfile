@@ -2,7 +2,7 @@ pipeline {
     agent any
     triggers {
         cron('H 0 * * *')
-        pollSCM('H */60 * * 1-5')
+        pollSCM('* * * * *')
     }
     stages {
         stage('Loading dependecy') {
